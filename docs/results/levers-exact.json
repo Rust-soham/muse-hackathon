@@ -1,0 +1,107 @@
+{
+  "gpu": "NVIDIA H200",
+  "torch": "2.14.1+cu130",
+  "prefill_rows": [
+    {
+      "T": 1024,
+      "pool": {
+        "bitwise": true,
+        "max_abs": 0.0
+      },
+      "unpool": {
+        "bitwise": true,
+        "max_abs": 0.0
+      }
+    },
+    {
+      "T": 1025,
+      "pool": {
+        "bitwise": true,
+        "max_abs": 0.0
+      },
+      "unpool": {
+        "bitwise": true,
+        "max_abs": 0.0
+      }
+    },
+    {
+      "T": 3012,
+      "pool": {
+        "bitwise": true,
+        "max_abs": 0.0
+      },
+      "unpool": {
+        "bitwise": true,
+        "max_abs": 0.0
+      }
+    },
+    {
+      "T": 4097,
+      "pool": {
+        "bitwise": true,
+        "max_abs": 0.0
+      },
+      "unpool": {
+        "bitwise": true,
+        "max_abs": 0.0
+      }
+    },
+    {
+      "T": 8191,
+      "pool": {
+        "bitwise": true,
+        "max_abs": 0.0
+      },
+      "unpool": {
+        "bitwise": true,
+        "max_abs": 0.0
+      }
+    },
+    {
+      "T": 16384,
+      "pool": {
+        "bitwise": true,
+        "max_abs": 0.0
+      },
+      "unpool": {
+        "bitwise": true,
+        "max_abs": 0.0
+      }
+    }
+  ],
+  "decode_columns": [
+    {
+      "T": 8,
+      "pool": {
+        "bitwise": false,
+        "max_abs": 1.0
+      },
+      "unpool": {
+        "bitwise": false,
+        "max_abs": 1.0
+      }
+    },
+    {
+      "T": 32,
+      "pool": {
+        "bitwise": false,
+        "max_abs": 1.0
+      },
+      "unpool": {
+        "bitwise": false,
+        "max_abs": 1.0
+      }
+    },
+    {
+      "T": 64,
+      "pool": {
+        "bitwise": false,
+        "max_abs": 1.0
+      },
+      "unpool": {
+        "bitwise": false,
+        "max_abs": 1.0
+      }
+    }
+  ]
+}

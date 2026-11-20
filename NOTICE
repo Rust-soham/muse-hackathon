@@ -1,0 +1,20 @@
+Muse Spark serving patch (Open Kernel Challenge 2026, serving track)
+Copyright 2026 Rust-soham
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This product includes work from the following projects:
+
+1. SGLang - https://github.com/sgl-project/sglang (base commit 297e54fd)
+   Licensed under the Apache License, Version 2.0.
+   patch/levers-final.diff is a patch to SGLang and modifies SGLang source files.
+
+2. vjeux/okc-2026 - https://github.com/vjeux/okc-2026 (commit f35a41e)
+   Copyright vjeux. Licensed under the Apache License, Version 2.0.
+   The W4A16 NVFP4 MoE kernel in kernel/w4a16_moe/ derives from the MoE stages of its
+   muse_prefill_layer kernel.
+
+3. alygg77/okc-muse-spark-kernels - https://github.com/alygg77/okc-muse-spark-kernels
+   Copyright 2026 alygg77. Licensed under the Apache License, Version 2.0.
+   The published version of the muse_prefill_layer kernel that our kernel-track work,
+   and from it the MoE kernel here, started from.

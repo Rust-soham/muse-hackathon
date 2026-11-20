@@ -1,0 +1,27 @@
+# Public repo: only the curated paths below are tracked; the rest of the workspace stays local.
+/*
+!/.gitignore
+!/README.md
+!/LICENSE
+!/NOTICE
+!/favicon.svg
+!/patch/
+!/kernel/
+!/docs/
+!/tools/
+/tools/*
+!/tools/serving/
+/tools/serving/*
+!/tools/serving/conftest.py
+!/tools/serving/validate_patch.py
+!/tools/serving/levers_exact_gpu.py
+!/tools/serving/levers_gpu.py
+!/tools/serving/test_w4a16_moe.py
+!/tools/serving/test_proj_sharding_v2_s56.py
+!/tools/serving/test_proj_sharding_v2_s62.py
+!/tools/serving/test_pooler_shard.py
+!/tools/serving/test_pooler_shard_gate.py
+!/tools/serving/test_pooler_rowshard_ranksim.py
+!/tools/serving/test_unpooler_shard.py
+__pycache__/
+*.pyc
